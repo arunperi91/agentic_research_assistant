@@ -1,0 +1,42 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.28.1
+
+# LangChain/LangGraph Stack - Latest compatible versions
+langgraph==0.2.20
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-openai==0.2.0
+langchain-community==0.3.0
+
+# OpenAI - Compatible with langchain-openai 0.2.0
+openai>=1.10.0,<2.0.0
+
+# Vector Store and Embeddings
+chromadb==0.4.22
+sentence-transformers==2.2.2
+
+# Document Processing
+python-docx==0.8.11
+PyPDF2==3.0.1
+python-multipart==0.0.6
+
+# Web Search and HTTP - PYTHON 3.13 COMPATIBLE VERSIONS
+aiohttp>=3.9.0
+requests==2.31.0
+duckduckgo-search==3.9.6
+
+# Environment and Configuration
+python-dotenv==1.0.0
+
+# Data Processing - Python 3.13 compatible
+pandas>=2.2.0
+numpy>=1.24.3
+
+# UI Components (for Streamlit)
+plotly==5.17.0
+altair==5.1.2
+
+# Logging and Monitoring
+loguru==0.7.2
